@@ -1,0 +1,98 @@
+.cards {
+    max-width: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: orange;
+    border: 3px solid orangered;
+    text-align: center;
+  }
+  
+  .card_image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid orangered;
+  }
+  
+  .card_content,
+  .card_info {
+    padding: 10px;
+  }
+  
+  .card_info {
+    line-height: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border: 1px solid #555;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: orange;
+    color: white;
+    transition: color 800ms;
+  }
+  
+  .active {
+    background-color: orange;
+    color: white;
+  }
+  
+  body {
+    background-color: #252525;
+    background-image: url();
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  ul div {
+    text-align: center;
+  }
+  
+  ul div a {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  ul header {
+    text-align: center;
+  }
+  
+  ul header img {
+    width: 1000px;
+    height: 190px;
+    margin: 0 auto;
+    display: flex;
+  }
+  

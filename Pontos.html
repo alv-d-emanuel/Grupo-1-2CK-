@@ -2,22 +2,41 @@
 <html lang="en">
    <link rel="stylesheet" type="text/css" href="stylep1.css" />
  <head>
-    <title>Piauizando</title>
+    <title>Piauízando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
  </head>
   <body>
-
-    <ul>
-        <div class="navbar">
-       <a  href="Home.html">Home</a>
-       <a href="Pontos.html">Pontos Turísticos</a>
-       <a href="mapas.html">Mapas</a>
-       <a href="pacotes.html">Pacotes</a></div>
-   </ul>
+    <nav class="menu-lateral"> 
+      <div class="btn-expandir">
+          <i class="bi bi-list" id="btn-exp"></i> 
+      </div>
+      <ul>
+          <li class="item-menu">
+              <a href="Home.html">
+                  <span class="icon"><i class="bi bi-house"></i></span>
+                  <span class="txt-link">Home</span>
+              </a>
+          </li>
+          <li class="item-menu ativo">
+              <a href="Pontos.html">
+                  <span class="icon"><i class="bi bi-geo"></i></span>
+                  <span class="txt-link">Pontos Turísticos</span>
+              </a>
+          </li>
+          <li class="item-menu">
+              <a href="mapas.html">
+                  <span class="icon"><i class="bi bi-map"></i></span>
+                  <span class="txt-link">Mapa</span>
+              </a>
+          </li>
+      </ul>
+  </nav>
 
     <section class="cards">
 
-        <div class="card">
+        <div class="card" id="Imagens/Modal/Barra Grande.jpg">
            <div class="card_image">
             <img src="Imagens/Locais/Barra Grande do Piauí/barra-grande.praia.jpg" alt="">
            </div>
@@ -29,7 +48,7 @@
            </div>
         </div>
 
-        <div class="card">
+        <div class="card" id="Imagens/Modal/Cachoeira do Engenho velho.jpg">
             <div class="card_image">
              <img src="/Imagens/Locais/Cachoeira do Engenho Velho/engenho.jpg" alt="">
             </div>
@@ -41,7 +60,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Cachoeira do Salto Liso.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/Cachoeira do Salto Liso/salto2.jpg" alt="">
             </div>
@@ -53,7 +72,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Cachoeira do Urubu.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/Parque Ecológico da Cachoeira do Urubu/cachoeira-do-urubu-portal.jpg" alt="">
             </div>
@@ -65,7 +84,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Cachoeira do Tingidor.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/Cachoeira do Tingidor/cachoeira-do-tingidor.jpg" alt="">
             </div>
@@ -77,19 +96,19 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Praia do Coqueiro.jpg">
             <div class="card_image">
-             <img src="Imagens/Locais/canions do poty/canions-do-poty.jpg" alt="">
+             <img src="Imagens/Locais/Praia do Coqueiro/Praia do coquiro.jpeg" alt="">
             </div>
             <div class="card_content">
-              <p><h2>Canions do Poty</h2></p>
+              <p><h2>Praia do Coqueiro</h2></p>
             </div>
             <div class="card_info">
-              <p> Localiza-se no sul do Estado, embora seja conhecido e divulgado pela imprensa, o local ainda é pouco visitado, mas sua beleza atrai ecoturistas e aventureiros de vários locais</p>
+              <p>Localiza-se em Luis Correia, atrai turistas e praticantes de kitesurf, a praia tem um mar calmo e com poucas ondas, além disso não é permitida a circulação de quadriciclos e veículos comuns</p>
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Canions do Viana.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/canions do viana/canions-do-viana.jpg" alt="">
             </div>
@@ -101,7 +120,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Mirante do Gritador.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/Parque Ambiental Encontro dos Rios/mirante.jpg" alt="">
             </div>
@@ -113,7 +132,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Delta do Parnaiba.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/Delta do Parnaíba/delta-do-parnaiba.jpg" alt="">
             </div>
@@ -125,7 +144,7 @@
             </div>
          </div>
          
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Encontrod dos Rios.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/Parque Ambiental Encontro dos Rios/encontrodosrios3.jpg" alt="">
             </div>
@@ -137,7 +156,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Lira Eco Parque.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/lira/lira2.jpg" alt="">
             </div>
@@ -149,7 +168,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Floresta Fossil.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/Parque Floresta Fóssil/floresta-fossil-portal.jpg" alt="">
             </div>
@@ -161,7 +180,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Serra da Capivara.jpg">
             <div class="card_image">
              <img src="/Imagens/Locais/Parque Nacional da Serra da Capivara/serra-da-capivara-ponte.jpg" alt="">
             </div>
@@ -173,7 +192,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Serra das Confunsoes.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/Parque Nacional da Serra das Confusões/serra-das-confusoes-pinturas.jpg" alt="">
             </div>
@@ -185,7 +204,7 @@
             </div>
          </div>
 
-         <div class="card">
+         <div class="card" id="Imagens\Modal\Sete Cidades.jpg">
             <div class="card_image">
              <img src="Imagens/Locais/Parque Nacional das Sete Cidades/sete-cidades-pedra1.jpeg" alt="">
             </div>
@@ -197,20 +216,89 @@
             </div>
          </div>
     </section>
-
-    <div class="modal_overlay ">
+    <section> 
+     <div class="modal_overlay ">
       <div class="modal">
         <a class="close_modal">
           <span class="material-symbols-outlined">close</span>
         </a>  
         <div class="modal_content">
-          <img src="Imagens\Teste.jpg" alt="devia ter algo aqui?">
+          <img src="" alt="devia ter algo aqui?">
         </div>
       </div>
-    </div>
-    
+     </div> 
+    <section> 
+    <footer>
+      <div id="footer_content">
+          <h1>Piauízando</h1>
+          <div id="footer_contacts">
+              <div id="footer_social_media">
+                  <a href="#" class="footer_link" id="Instagram">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
+  
+  
+                  <a href="#" class="footer_link" id="Youtube">
+                      <i class="fa-brands fa-youtube"></i>
+                  </a>
+  
+  
+                  <a href="#" class="footer_link" id="Whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+              </div>
+          </div>
+      <ul class="footer-list">
+          <li>
+              <h3>Sobre Nós</h3>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Hoteis</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Restaurantes</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Passeios</a>
+          </li>
+      </ul>
+  
+      <ul class="footer-list">
+          <li>
+              <h3>Produtos</h3>
+          </li>
+          <li>
+              <a href="#" class="footer-link">App</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Desktop</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Cloud</a>
+          </li>
+      </ul>
+      <div id="footer_subscribe">
+          <h3>Inscreva-se</h3>
+  
+          <p>
+              Coloque seu Email para ser notificado sobre atualizações
+          </p>
+  
+          <div id="input_group">
+              <input type="email" id="email">
+              <button>
+                  <i class="fa-solid fa-envelope"></i>                
+              </button>
+          </div>
+      </div>
+      </div>
+  <div id="footer_copyright">
+      &#169
+      2023 All Rights Reserved
+  </div>
+  </footer>
  
-    <script src="script.js"></script>
+    <script src="pontos.js"></script>
 
   </body>
 </html>       

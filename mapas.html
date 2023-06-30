@@ -3,52 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piauizando</title> 
+    <title>Piauízando</title> 
     <link rel="stylesheet" href="stylep1.css">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />                                                                                                        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-    <div class="box_menu">
-    <input type="checkbox"id="check">
-    <div class="menu-icon">
-        <label for="check">
-            <i class="fas fa-bars"></i>
-        </label>
-     </div>
-    </div>
-     <div class="sidebar_menu">
-    <div class="sidebar_titulo">
-        <a href="#">Menu</a>
-    </div>
-    </div>
-    <div class="btn_close">
-        <label for="check">
-            <i class="fas fa-times"></i>
-        </label>
-        <nav class="menu">
-            <ul>
-               <li>
-                  <i class="fa-solid fa-house"></i>
-                  <a href="#">Home</a>
-               </li>
-               <li>
-                <i class="fa-solid fa-location-dot"></i>
-                <a href="#">Pontos Turísticos</a>
-             </li>
-             <li>
-                <i class="fa-solid fa-map-location-dot"></i>
-                <a href="#">Mapas</a>
-             </li>
-             <li>
-                <i class="fa-solid fa-bag-shopping"></i>
-                <a href="#">Pacotes</a>
-             </li>
-            </ul>
-        </nav>
-  <body>
-    <footer>
-        
-    </footer>
+    <nav class="menu-lateral"> 
+        <div class="btn-expandir">
+            <i class="bi bi-list" id="btn-exp"></i> 
+        </div>
+        <ul>
+            <li class="item-menu">
+                <a href="Home.html">
+                    <span class="icon"><i class="bi bi-house"></i></span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="Pontos.html">
+                    <span class="icon"><i class="bi bi-geo"></i></span>
+                    <span class="txt-link">Pontos Turísticos</span>
+                </a>
+            </li>
+            <li class="item-menu ativo">
+                <a href="mapas.html">
+                    <span class="icon"><i class="bi bi-map"></i></span>
+                    <span class="txt-link">Mapa</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+  
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lwIG0QKK49wFRy3IWYmpqBqy_k59nlk&ehbc=2E312F" width="640" height="480" class="mapa"></iframe>
 
+    <footer>
+        <div id="footer_content">
+            <h1>Piauízando</h1>
+            <div id="footer_contacts">
+                <div id="footer_social_media">
+                    <a href="#" class="footer_link" id="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+
+                    <a href="#" class="footer_link" id="Youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a href="#" class="footer_link" id="Whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        <ul class="footer-list">
+            <li>
+                <h3>Sobre Nós</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Hoteis</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Restaurantes</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Passeios</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Produtos</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">App</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Desktop</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Cloud</a>
+            </li>
+        </ul>
+        <div id="footer_subscribe">
+            <h3>Inscreva-se</h3>
+
+            <p>
+                Coloque seu Email para ser notificado sobre atualizações
+            </p>
+
+            <div id="input_group">
+                <input type="email" id="email">
+                <button>
+                    <i class="fa-solid fa-envelope"></i>                
+                </button>
+            </div>
+        </div>
+        </div>
+    <div id="footer_copyright">
+        &#169
+        2023 All Rights Reserved
+    </div>
+    </footer>
+  <script scr="mapa.js"></script>
 </body>
 </html>
